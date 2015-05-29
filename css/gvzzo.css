@@ -1,0 +1,574 @@
+
+#logoDiv{
+position: absolute;
+top: 45%;   
+margin-left: auto;
+margin-right: auto; clear: both;}
+
+.logo1 {
+    font-family: palatino;
+    font-size: 19px;
+   text-align: center;
+ 
+    
+}
+.logo2 {
+    font-family: palatino;
+    font-size: 59px;
+   text-align: center;
+ 
+    
+}
+
+#wineDiv {
+   position: absolute;
+ top: 100%;
+margin-left: auto;
+margin-right: auto;
+    
+}
+#wineLine {
+   text-align: center;
+    
+}
+#wineWord {
+    font-family: palatino;
+    font-size: 28px;
+    text-align: center;
+    
+}
+#bottle {
+ 
+ position: absolute;
+ top: 130%;   
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+   
+  
+}
+
+/*media queries*/
+@media(max-width:512px){
+#responsiveBottle{
+height: auto;
+width:100%;    
+}
+#gaglioppoDiv{top:230%!important;}    
+
+#gaglioppoPara{ margin-top: 25%!important;}     
+
+#readmore {margin-top: 20%!important;}  
+   
+    
+}
+
+
+@media(max-width:725px){
+#responsiveMap{
+    height: auto;
+width:100%;  }
+    
+    #kremissaPara{
+    font-size: 27px!important;
+}
+#kremissaInfo{
+    font-size: 20px!important;
+}
+    #kremissaDiv {
+    height: 400px!important;}
+
+}
+/*END -media queries*/
+
+
+#gaglioppoDiv {
+    background-color: #000000;
+    
+    height: 300px;
+   
+    width: 100%;
+    position: absolute;
+ top: 250%;
+
+  
+}
+#gaglioppoPara {
+    color: #ffffff;
+    margin-top: 10%;
+    font-family: palatino;
+    font-size: 37px;
+   text-align: center;
+}
+#readmore {
+    color: #fafad2;
+    cursor: pointer;
+    margin-top:  5%;
+    font-family: palatino;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#landDiv {
+   position: absolute;
+top: 320%;   
+margin-left: auto;
+margin-right: auto; 
+}
+
+#landDes {
+   text-align: center;
+
+    font-family: palatino;
+    font-size: 28px;
+    text-align: center;
+}
+
+#land {
+margin-left: auto;
+margin-right: auto;
+    position: absolute;
+    top: 350%;
+     text-align: center;
+  
+}
+
+#histDiv {
+     position: absolute;
+ top: 500%;
+margin-left: auto;
+margin-right: auto;
+    
+}
+#histLine {
+   text-align: center;
+}
+#histWord {
+    font-family: palatino;
+    font-size: 28px;
+    text-align: center;
+}
+#kremissaDiv {
+    background-color: #000000;
+    
+    height: 500px;
+   
+    width: 100%;
+    position: absolute;
+ top: 530%;
+}
+#kremissaPara{
+    color: #fafad2;
+    text-align: center;
+    font-family: palatino;
+    font-size: 37px;
+    margin-top:5%;
+    
+}
+#kremissaInfo{
+    color: gray;
+    
+    font-family: palatino;
+    font-size: 30px;
+    text-align: center;
+}
+
+#readmore2 {
+    background-color: black;
+    color: #fafad2;
+    cursor: pointer;
+ margin-left: auto;
+    margin-right: auto;
+    font-family: palatino;
+    font-size: 14px;
+   text-align: center;
+    text-decoration: underline;
+}
+#contactDiv {
+    position: absolute;
+ top: 630%;
+margin-left: auto;
+margin-right: auto;
+}
+#contactLine {
+    text-align: center;
+}
+#contactWord {
+    font-family: palatino;
+    font-size: 28px;
+    text-align: center;
+}
+
+#contactInfo {
+     position: absolute;
+ top: 650%;
+
+ text-align: center;
+}
+
+#socialMedia{
+ position: absolute;
+ top: 680%;
+list-style: none;
+
+}
+
+#fb {
+    background-image: url("../images/socialmedias.png");
+    background-position: -54px 0;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 85px;
+ float:right;
+    width: 76px;
+    
+}
+#tw {
+    background-image: url("../images/socialmedias.png");
+    background-position: 186px 0;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 86px;
+    float: right;
+    width: 54px;
+}
+#ig {
+    background-image: url("../images/socialmedias.png");
+    background-position: -128px 0;
+    border: 1px solid transparent;
+    cursor: pointer;
+    height: 85px;
+  float:right;
+    width: 70px;
+}
+#bottomBlack {
+background-color: #000000;
+height: 140px;
+width: 100%;
+position: absolute;
+top: 695%;
+margin-left: auto;
+margin-right: auto;
+}
+#logoBottom {
+   text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#bottomBlack2 {
+background-color: #000000;
+height: 140px;
+width: 100%;
+
+}
+#bottomBlack3 {
+background-color: #000000;
+height: 140px;
+width: 100%;
+ 
+
+}
+
+/*gaglioppo page*/
+
+#gaglioppoSpanPG2 {
+    color: black;
+   text-align: center;
+    font-family: palatino;
+    font-size: 37px;
+    margin-top: 10%;
+    
+    
+}
+#lineDiv {
+    margin-top: 5%;
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 90px;
+   margin-left: auto;
+    margin-right: auto;
+    width: 174px;
+}
+#Line {
+    color: black;
+    text-align: center;
+    
+}
+#geoWord {
+    color: gray;
+   text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+    
+}
+#location {
+    color: darkgray;
+  text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+   
+}
+#lineDiv2 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 277px;
+}
+#Line2 {
+    color: black;
+ text-align: center;
+}
+#soil {
+    color: gray;
+text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+  
+}
+#soilType {
+    color: darkgray;
+text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+  
+}
+#lineDiv3 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 277px;
+}
+#Line3 {
+    color: black;
+  text-align: center;
+}
+#yield {
+    color: gray;
+    text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+
+}
+#info {
+    color: darkgray;
+  text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+    
+}
+#lineDiv4 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 277px;
+}
+#Line4 {
+    color: black;
+  text-align: center;
+}
+#vinification {
+    color: gray;
+  text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+    
+}
+#info2 {
+    color: darkgray;
+    text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+    
+}
+#lineDiv5 {
+    border: 1px solid rgba(0, 0, 0, 0);
+   height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 277px;
+}
+#Line5 {
+    color: black;
+    text-align: center;
+}
+#color {
+    color: gray;
+   text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+ 
+}
+#info3 {
+    color: darkgray;
+  text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+    
+}
+#lineDiv6 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 277px;
+}
+#Line6 {
+    color: black;
+text-align: center;
+}
+#scent {
+    color: gray;
+   text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+   
+}
+#info4 {
+    color: darkgray;
+    text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+    
+}
+#lineDiv7 {
+    border: 1px solid rgba(0, 0, 0, 0);
+ height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+  
+    width: 277px;
+}
+#Line7 {
+    color: black;
+ text-align: center;
+}
+#taste {
+    color: gray;
+    text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+   
+}
+#info5 {
+    color: darkgray;
+     text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+   
+}
+#lineDiv8 {
+    border: 1px solid rgba(0, 0, 0, 0);
+     height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 277px;
+}
+#Line8 {
+    color: black;
+    text-align: center;
+}
+#gastro {
+    color: gray;
+ text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+
+}
+#info6 {
+    color: darkgray;
+text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+
+}
+#lineDiv9 {
+    border: 1px solid rgba(0, 0, 0, 0);
+   height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 277px;
+}
+#Line9 {
+    color: black;
+    text-align: center;
+}
+#temp {
+    color: gray;
+     text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+   
+}
+#info7 {
+    color: darkgray;
+   text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+  
+}
+#lineDiv10 {
+    border: 1px solid rgba(0, 0, 0, 0);
+    height: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 277px;
+}
+#Line10 {
+    color: black;
+     text-align: center;
+}
+#alco {
+    color: gray;
+ text-align: center;
+    font-family: palatino;
+    font-size: 20px;
+    
+}
+#info8 {
+    color: darkgray;
+    text-align: center;
+    font-family: palatino;
+    font-size: 16px;
+    
+}
+
+#homeButton {
+    color: black;
+    cursor: pointer;
+text-align: center;
+    font-size: 16px;
+    margin-top: 10%;
+  margin-bottom: 15%;
+    text-decoration: none;
+}
+#homeButton a{
+color: black;}
+
+#kremissaPG3 {
+    color: black;
+  text-align: center;
+    font-family: palatino;
+    font-size: 37px;
+    margin-top:  10%;
+    
+}
+#kremissaParagraph {
+    color: black;
+    margin-top: 5%;
+
+}
+
+#homeBtn2 {
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 5%;
+    text-decoration: none;
+}
+#homeBtn2 a{ color:black;}
