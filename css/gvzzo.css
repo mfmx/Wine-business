@@ -211,27 +211,28 @@ margin-right: auto;
  position: absolute;
  top: 680%;
 list-style: none;
+    text-align: center;
 
 }
 
 #fb {
     background-image: url("../images/socialmedias.png");
-    background-position: -54px 0;
+    background-position: -44px 0;
     border: 1px solid transparent;
     cursor: pointer;
     height: 85px;
- float:right;
     width: 76px;
+    display: inline-block;
     
 }
 #tw {
     background-image: url("../images/socialmedias.png");
-    background-position: 186px 0;
+    background-position: 182px 0;
     border: 1px solid transparent;
     cursor: pointer;
     height: 86px;
-    float: right;
     width: 54px;
+    display: inline-block;
 }
 #ig {
     background-image: url("../images/socialmedias.png");
@@ -239,8 +240,8 @@ list-style: none;
     border: 1px solid transparent;
     cursor: pointer;
     height: 85px;
-  float:right;
     width: 70px;
+    display: inline-block;
 }
 #bottomBlack {
 background-color: #000000;
@@ -261,12 +262,14 @@ margin-right: auto;
 background-color: #000000;
 height: 140px;
 width: 100%;
-
+    margin-top: 5%;
 }
 #bottomBlack3 {
 background-color: #000000;
 height: 140px;
 width: 100%;
+    position: absolute;
+    top: 290%;
  
 
 }

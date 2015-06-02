@@ -1,0 +1,30 @@
+#logoDiv {
+background: url(../images/Schermata.png); 
+  background-position:  50% 50%;
+    height: 400px;
+    width: 100%;
+    margin-top: 10%;
+
+
+}
+#entryDiv{
+text-align: center;
+margin-top: 2%;}
+#entry {
+    background-color: #000000;
+    border-radius: 5px;
+    color: #ffffff;
+    font-family: Lucida Console;
+    font-size: 14px;
+}
+#sorryDiv {
+    height: 30px;
+    width:100%;
+}
+#sorryPara {
+    color: black;
+    font-family: 'Lucida Console';
+    font-size: 13px;
+    font-style: italic;
+    margin: 0;
+}

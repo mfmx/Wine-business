@@ -1,6 +1,6 @@
 
 function entryPg(){ 
-	alert("                   "+"One of our  missions is to ensure that our wines are enjoyed responsibly."+ "\n We must confirm that you are of legal drinking age in your country before welcoming you to GVZZO.");
+	alert("One of our  missions is to ensure that our wines are enjoyed responsibly."+ "\n We must confirm that you are of legal drinking age in your country before welcoming you to GVZZO.");
  var verifyCountry= prompt("Enter one of the three options: United States, Italy, Others");
 var country= verifyCountry.toLocaleLowerCase();
  
@@ -8,7 +8,7 @@ var country= verifyCountry.toLocaleLowerCase();
 	
 	 var enterAge= prompt("Enter your Age");
 	 if(enterAge<21){
-		 document.getElementById("sorryDiv").style="display:block";
+		 document.getElementById("sorryDiv").style.display="block";
 		
 	 }
 
